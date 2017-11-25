@@ -1,12 +1,16 @@
 README!
+
 -------------------------------------------
+
 Pragrammausführung:
-Die JAVA-Datei muss lediglich ausgeführt werden (bspw. über die Kommandozeile oder mit einer IDE wie "Eclipse") und erfordert daraufhin einen Eingabe-String, sprich die zu untersuchende Sequenz.
+Die JAVA-Datei muss lediglich Kompiliert und ausgeführt werden (bspw. über die Kommandozeile oder mit einer IDE wie "Eclipse") und erfordert daraufhin einen Eingabe-String, sprich die zu untersuchende Sequenz.
 Im Anschluss fragt das Programm nach der Länge der k-mere, einem uInt, und zeigt die Ergebnisse für jeden einzelnen Algorithmus untereinander an. 
 
 -------------------------------------------
+
 Die von uns beutzten Sequenzen der geforderten Organismen rund um den Origin of Replication:
 
+//Kann per per copy&paste als Input verwendet werden. 
 Vibrio Cholerae:
 tgtcgatgcgcccagtttcgagcaggccaagcaaaccggagaagttcgcagtaacaaactcgaccttataatcattacgtttaccaatttcattccacacatccacttcaaagccttgcagctcgtcttgtttcacgaaggtgaaggggaaataacggcccgacatgccgactttcacctcggtagctgcctgaacggtggcagaagaaagggctagggcagccagagcgatgttaaaccagtgtttcattgtgtgactcctgtataatttatgtttatatcctactggcaattaaatcattaaaagaaataaccagtagttattaacaataactgatcaaaatcaaaaacatggggataactactaaagatcttgagatatgtggatctttatgtgggtagcacgggcaaaatgtgtgaggatcttagttatcggtcgaaaaataatgtgaataacttagatcttattcactggatcgacgatccagcgctggcgatctgagttatcaacaggtagaattgttcctctttaccgatcgttgatttttgagtgagggaatcgtgtcatcttcgctatggttgcaatgtttgcaacggcttcaggaagagctacctgccgcagaattcagtatgtgggtgcgtccgcttcaagcggagctcaatgacaatactctcactttattcgccccgaaccgctttgtgttggattgggtacgcgataagtacctcaataacatcaatcgtctgctgatggaattcagtggcaatgatgtgcctaatttgcgctttgaagtggggagccgccctgtgg
 
@@ -16,8 +20,10 @@ tggcagctgccctgtcaaggaagttgtacctgccgctgcgcaaaagttcaatcacacctgtatctgccagagtgagggaa
 
 -------------------------------------------
 
+Laufzeitanalyse ist im Programm nicht enthalten, da dies nicht erforderlich war.
+Die Laufzeitanalyse erfolgte durch eine Änderung der Main()-Funktion und kann ggf. durch folgende Main() ersetzt werden, um die Analysen den Algorithmen hinzuzufügen:
 
-Die Laufzeitanalyse erfolgte durch eine Änderung der Main()-Funktion und kann ggf. durch folgende Main() ersetzt werden, um die Analysen druchzufühen:
+
 
         Scanner scan = new Scanner(System.in);
 		System.out.println("Bitte geben sie das zu durchsuchende Genom ein. Gross- und Kleinbuchstaben NICHT mischen!");
