@@ -49,3 +49,6 @@ Die Laufzeitanalyse erfolgte durch eine Änderung der Main()-Funktion und kann g
 		System.out.println(b);
 		System.out.println(c);
 		
+
+Ich hatte leider am Tag der Abgabe beim hochladen der Dateien einige Internetprobleme, und habe sie mehrere Male neu uploaden müssen. Fertig war jedoch alles vor 23:59. 
+		
